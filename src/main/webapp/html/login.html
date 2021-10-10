@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>饿麻了</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/verify.css">
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/verify.js"></script>
+</head>
+
+<body background="../images/loginBackground.jpg">
+
+<div class="section dwo">
+    <div class="container">
+        <div class="row full-height justify-content-center">
+            <div class="col-12 text-center align-self-center py-5">
+                <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                    <input class="checkbox" type="checkbox" id="reg-log" name="reg-log">
+                    <div class="card-3d-wrap mx-auto">
+                        <div class="card-3d-wrapper">
+                            <div class="card-front">
+                                <div class="center-wrap">
+                                    <div class="section text-center">
+
+                                        <h3 class="mb-4 pb-3">饿麻了</h3>
+                                        <div class="form-group">
+                                            <a href="#">
+                                                <span class="glyphicon glyphicon-user"></span>
+                                            </a>
+                                            <input type="text" name="username" class="form-style"
+                                                   placeholder="请输入账号" id="username" autocomplete="off"
+                                                   style="width: 90%;height: 40px;">
+                                            <i class="input-icon uil uil-at"></i>
+                                        </div>
+                                        <div style="margin-top: 30px;"></div>
+                                        <div class="form-group mt-2">
+                                            <a href="#">
+                                                <span class="glyphicon glyphicon-lock"></span>
+                                            </a>
+                                            <input type="password" name="password" class="form-style"
+                                                   placeholder="请输入密码" id="password" autocomplete="off"
+                                                   style="width: 90%;height: 40px;">
+                                            <i class="input-icon uil uil-lock-alt"></i>
+                                        </div>
+
+                                        　　
+                                        <div class="select">
+                                            　　<select name="cars" style="opacity:0.5">
+                                            　　
+                                            <option value="userlogin">用户会员登录</option>
+                                            　　
+                                            <option value="shoplogin">后台商店登录</option>
+                                            　　
+                                            　　</select>
+                                            　　
+                                        </div>
+
+                                        <div id="mpanel1" style="margin-top:10px;">
+
+                                        </div>
+
+
+                                        <script>
+                                            $('#mpanel1').slideVerify({
+                                                type: 1, //类型
+                                                vOffset: 5, //误差量，根据需求自行调整
+                                                barSize: {
+                                                    width: '100%',
+                                                    height: '40px',
+                                                },
+                                                ready: function () {
+                                                },
+                                                success: function () {
+                                                    alert('验证成功，请点击登录！');
+                                                    window.location.href = "index.html";
+                                                },
+                                                error: function () {
+                                                    alert('验证失败！');
+                                                }
+
+                                            });
+                                        </script>
+
+                                        <div class="d-flex justify-content-between mt-4 text-left">
+                                            <div class="flex-fill">
+                                                <p>没有帐号？<label for="reg-log">立即注册</label></p>
+                                            </div>
+                                            <div class="flex-fill text-right">
+
+                                                <p><a href="javascript:" class="forgot link">忘记密码？</a></p>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="center-wrap">
+                                    <div class="section text-center">
+                                        <h4 class="mb-4 pb-3">注册</h4>
+                                        <div class="form-group">
+                                            <a href="#">
+                                                <span class="glyphicon glyphicon-user"></span>
+                                            </a>
+                                            <input type="text" name="logname" class="form-style"
+                                                   placeholder="请输入用户名" id="logname" autocomplete="off"
+                                                   style="width: 90%;height: 40px;">
+                                            <i class="input-icon uil uil-user"></i>
+                                        </div>
+                                        <div class="form-group mt-2">
+                                            <a href="#">
+                                                <span class="glyphicon glyphicon-lock"></span>
+                                            </a>
+                                            <input type="text" name="registerUsername" class="form-style"
+                                                   placeholder="请输入密码" id="registerUsername" autocomplete="off"
+                                                   style="width: 90%;height: 40px;">
+                                            <i class="input-icon uil uil-at"></i>
+                                        </div>
+                                        <div class="form-group mt-2">
+                                            <a href="#">
+                                                <span class="glyphicon glyphicon-lock"></span>
+                                            </a>
+                                            <input type="password" name="registerPassword" class="form-style"
+                                                   placeholder="请确认密码" id="registerPassword" autocomplete="off"
+                                                   style="width: 90%;height: 40px;">
+                                            <i class="input-icon uil uil-lock-alt"></i>
+                                        </div>
+                                        <a href="javascript:" class="btn mt-4">注册</a>
+                                        <p class="mb-0 mt-4 text-center">已有帐号？<label for="reg-log">立即登录</label>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
