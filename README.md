@@ -1,5 +1,5 @@
 # orderSystem2021-07
-## nchu2021-07
+## nchu2021-07实训项目
 ## 使用说明
 ### 运行环境：
 - jdk1.8
@@ -9,8 +9,15 @@
 - IDEA2021
 
 ### 配置说明：
-- SSM 配置具体看b站教程
-- bootstrap- 查看官网学习
-- jqury- w3c学习
-- layui layui官网学习
-###注意版本不一致可能会导致运行效果不佳。最好使用超过当前版本的配置
+- SSM 配置具体看b站教程(https://www.bilibili.com/video/BV1mE411X7yp?p=204) CSDN(https://yichun.blog.csdn.net/article/details/100192558)
+- bootstrap-v4.50 查看官网学习(https://v4.bootcss.com/docs/getting-started/download/)
+- jqury- v1.4.1 w3c学习(https://www.w3school.com.cn/jquery/index.asp)
+- layui layui官网学习(https://www.layui.com/)
+
+### 使用前请先下载sql文件，将数据库导入到本地，然后修改项目中的jdbc.properties为你的本地地址
+![image](https://user-images.githubusercontent.com/64464830/136689090-464c55a4-9e69-401d-bd38-6a57999c93ba.png)
+### 修改maven仓库为你本地的地址 ### 修改maven仓库为你本地的地址 idea -> file -> setting ->Build execution deployment -> build -> maven
+### !注意！ 否者将下载到你的C盘默认地址
+![image](https://user-images.githubusercontent.com/64464830/136689198-4d039197-df23-459e-95d2-85303e5eb046.png) 
+
+### 注意版本不一致可能会导致运行效果不佳。最好使用超过或为当前版本的配置
