@@ -306,10 +306,10 @@ INSERT INTO `userinfo` VALUES (2, 'rt777', '123456', '沃嫩爹', '匈牙利阿�
 INSERT INTO `userinfo` VALUES (3, 'Klering', '123456', '傅图图', '翻斗大街翻斗花园二号楼1001室', '12345678910', 'photo2.jpg', '4351');
 INSERT INTO `userinfo` VALUES (4, '邪王真眼！', '124578963', '程阿尔卡夫斯基月健', '阿联酋南半岛可夫达吉汉区', '12345678912', 'user_4.png', '206852');
 INSERT INTO `userinfo` VALUES (5, 'AISHKD', '123456', '颜凡凡', '加拿大渥太华市', '12345678910', 'photo1.jpg', '404');
-INSERT INTO `userinfo` VALUES (14, '555151515', '123456', '555151515', '翻斗花园', '13407988455', 'photo1.jpg', '0');
-INSERT INTO `userinfo` VALUES (15, 'admin', 'admin', 'admin', '江西省南昌市南昌航空大学大学20栋204', '18179632373', 'user_15.png', '999999');
-INSERT INTO `userinfo` VALUES (16, '邹好闲', '123456', 'haoxian', '南昌航空大学20栋206', '19203829382', 'photo2.jpg', '0');
-INSERT INTO `userinfo` VALUES (17, '乌西迪西', '123456', '乌西迪西', '花园世界', '17870438438', 'photo2.jpg', '0');
+INSERT INTO `userinfo` VALUES (14, '555151515', '123456', '555151515', '翻斗花园', '19299999999', 'photo1.jpg', '0');
+INSERT INTO `userinfo` VALUES (15, 'admin', 'admin', 'admin', '地址！', '19299999999', 'user_15.png', '999999');
+INSERT INTO `userinfo` VALUES (16, '邹好闲', '123456', 'haoxian', 'xxxx', '19299999999', 'photo2.jpg', '0');
+INSERT INTO `userinfo` VALUES (17, '乌西迪西', '123456', '乌西迪西', '花园世界', '19299999999', 'photo2.jpg', '0');
 
 -- ----------------------------
 -- View structure for v_evainfo-userinfo
