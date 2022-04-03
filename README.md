@@ -15,7 +15,6 @@
 - layui layui官网学习(https://www.layui.com/)
 
 ### 使用前请先下载sql文件，将数据库导入到本地，然后修改项目中的jdbc.properties为你的本地地址
-![image](https://user-images.githubusercontent.com/64464830/136689090-464c55a4-9e69-401d-bd38-6a57999c93ba.png)
 ### 修改maven仓库为你本地的地址 ### 修改maven仓库为你本地的地址 idea -> file -> setting ->Build execution deployment -> build -> maven
 ### 注意！ 不修改地址将下载到你的C盘默认地址
 ![image](https://user-images.githubusercontent.com/64464830/136689198-4d039197-df23-459e-95d2-85303e5eb046.png) 
